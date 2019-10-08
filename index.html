@@ -23,12 +23,12 @@ https://github.com/mrdoob/three.js/tree/dev/examples/models/mmd#readme
       </a-assets>
 
 	<a-entity id="rig"
-			  movement-controls="fly: true"
-			  position="25 0 25"
-			  >
+          movement-controls="controls: checkpoint"
+          checkpoint-controls="mode: animate">
 	  <a-entity camera
-				position="0 16 0"
-				look-controls="pointerLockEnabled: true"></a-entity>
+		    position="0 1.6 0"
+		    look-controls="pointerLockEnabled: false">
+	  </a-entity>
 	</a-entity>
 	
       <a-entity mmd="audio:https://cdn.rawgit.com/mrdoob/three.js/r87/examples/models/mmd/audios/wavefile_short.mp3;
